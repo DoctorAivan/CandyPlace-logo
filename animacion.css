@@ -1,0 +1,145 @@
+body{
+	background-color: #000;
+}
+
+#candyplace-logo
+{
+    float: left;
+    position: relative;
+    width: 250px;
+    margin-left: calc(50% - 125px);
+    margin-top: 50px;
+    }
+    #candyplace-logo-image
+    {
+        position: absolute;
+        width: 100%;
+        opacity: 0;
+    }
+        #candyplace-logo-image img
+        {
+            float: left;
+            width: 70px;
+            margin: 0 0 0 90px;
+        }
+
+    #candyplace-logo-letras-glow
+    {
+        float: left;
+        position: relative;
+        width: 100%;
+    }
+        #candyplace-logo-letras span
+        {
+            float: left;
+            opacity: 0;
+        }
+        .candyplace-h1
+        {
+            position: absolute;
+            color: #fff;
+            font-family: 'Noto Sans HK', sans-serif;
+            font-size: 2.3rem;
+            line-height: 2.3rem;
+            letter-spacing: 0.01rem;
+            font-weight: 900;
+            -webkit-font-smoothing:antialiased;
+            top: 73px;
+        }
+        .candyplace-h2
+        {
+            position: absolute;
+            color: #fff;
+            font-family: 'Noto Sans HK', sans-serif;
+            font-size: 0.8rem;
+            line-height: 0.8rem;
+            font-weight: 400;
+            letter-spacing: 0.3rem;
+            -webkit-font-smoothing:antialiased;
+            margin: 122px 0 0 60px;
+        }
+            .candyplace-h2 span
+            {
+                float: left;
+                opacity: 0;
+            }
+        .candyplace-glow
+        {
+            text-shadow:
+            0 0 30px rgba(255,255,255,0.1),
+            0 0 12px rgba(255,255,255,0.25),
+            0 0 21px rgba(255,255,255,0.3),
+            0 0 34px rgba(255,255,255,0.5),
+            0 0 40px rgba(255, 255, 255, 0.7),
+            0 0 70px rgb(255, 187, 0);
+            letter-spacing: 0.022rem;
+            opacity: 0;
+        }
+        .candyplace-lens
+        {
+            position: absolute;
+            background: radial-gradient(
+                rgba(255, 247, 226, 0.5) 0%,
+                rgba(225, 0, 255, 0) 70%);
+            border-radius: 50%;
+            width: 550px;
+            height: 32px;
+            top: 78px;
+            left: -155px;
+            z-index: 1;
+            opacity: 0;
+        }
+
+        #candyplace-logo-light
+        {
+            position: absolute;
+        }
+            #candyplace-logo-light div
+            {
+                opacity: 0;
+            }
+            .candyplace-logo-light-1
+            {
+                position: absolute;
+                background: radial-gradient(
+                    rgb(255, 255, 255) 0%,
+                    rgba(255, 245, 202, 0.4) 30%,
+                    rgba(88, 88, 88, 0.3) 60%,
+                    rgba(0,0,0,0) 90%);
+                border-radius: 50%;
+                width: 150px;
+                height: 150px;
+                top: 28px;
+                left: -58px;
+                z-index: 10;
+            }
+            .candyplace-logo-light-2
+            {
+                position: absolute;
+                background: radial-gradient(
+                    rgba(255,255,255,1) 0%,
+                    rgba(255, 245, 202, 0.4) 30%,
+                    rgba(88, 88, 88, 0.3) 60%,
+                    rgba(0,0,0,0) 90%);
+                border-radius: 50%;
+                width: 90px;
+                height: 90px;
+                top: 38px;
+                left: 195px;
+                z-index: 10;
+            }
+            .candyplace-logo-light-3
+            {
+                position: absolute;
+                background: radial-gradient(
+                    rgba(255,255,255,1) 0%,
+                    rgba(255, 245, 202, 0.4) 30%,
+                    rgba(88, 88, 88, 0.3) 60%,
+                    rgba(0,0,0,0) 90%);
+                border-radius: 50%;
+                width: 110px;
+                height: 110px;
+                top: -43px;
+                left: 82px;
+                z-index: 10;
+            }
